@@ -28,3 +28,4 @@ class Solution:
         
         #dont count the already processed number , when the addition exceeds the target , dont go through the second loop
         #https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/
+        #contributor- shub
