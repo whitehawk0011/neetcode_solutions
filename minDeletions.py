@@ -1,3 +1,14 @@
+# Minimum Deletions to Make Character Frequencies Unique
+# https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/
+# https://leetcode.com/submissions/detail/798265335/
+'''
+first used hashmap to store character frequencies
+then counted number of characters and stored them in array
+then checked if they were in decreasing order strictly
+or else made them by decreasing them by one in each index than the previous
+'''
+
+
 class Solution:
     def minDeletions(self, s: str) -> int:
         count = {}
